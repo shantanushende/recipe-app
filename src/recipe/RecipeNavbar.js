@@ -15,7 +15,7 @@ const RecipeNavbar = () => {
   <Link to="/" className="w3-bar-item w3-button">All Recipies</Link>
   <Link to="/new" className="w3-bar-item w3-button">Add new recipe</Link>
   <Link to="/ChatRoom" className="w3-bar-item w3-button">Chatroom</Link>
-  <button onClick={signOut}><a href="#" class="w3-bar-item w3-button">Signout</a></button>
+  <button onClick={signOut}>Signout</button>
 
 </div>
 
